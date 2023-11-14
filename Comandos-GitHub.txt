@@ -19,4 +19,4 @@ git status -s: Muestra los archivos no registrados.
 git status -sb: Ver información de la rama maestra
 git remote add upstream <URL>: Crea una copia del repositorio.
 git remote -v: Nos muestra en que repositorio estamos
-git log --oneline --stat: Muestra los cambios de en los commits.
+git log --oneline: Muestra los cambios de en los commits.
