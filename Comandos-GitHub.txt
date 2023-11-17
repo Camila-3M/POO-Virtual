@@ -5,6 +5,7 @@ git add <archivo>
 git add .
 git commit -m "comentario"
 git log --oneline
+git status
 git remote add origin <URL>
 git branch -M main
 git push -u origin main
