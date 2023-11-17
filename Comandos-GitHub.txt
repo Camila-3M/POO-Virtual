@@ -1,22 +1,11 @@
-Universidad de las Fuerzas Armadas "ESPE"
-Nombre: Camila José Maldonado Reina
-NRC: 16362
-
-git help: Genera lista de comandos.
-git config --global user.name "username": Configura el nombre.
-git config --global user.email "myemail@example.com": Configura el email.
-git config --global color.ui true: Configura los colores de los marcos de los comandos.
-git init: Inicia Git en la carpeta seleccionada.
-git clone <url>: Clona el repositorio de Github.
-git add <archivo>: Agrega el archivo señalado.
-git add .: Agregar todos los archivos de la carpeta.
-git commit -m "comentario": Agrega un comentario indicando lo que se ha modificado.
-git commit -a: Muestra si existen problemas.
-git push: Permite cargar los cambios locales en el repositorio remoto.
-git push origin master: Sube los archivos al repositorio.
-git status: Muestra el estado de los archivos.
-git status -s: Muestra los archivos no registrados.
-git status -sb: Ver información de la rama maestra
-git remote add upstream <URL>: Crea una copia del repositorio.
-git remote -v: Nos muestra en que repositorio estamos
-git log --oneline: Muestra los cambios de en los commits.
+git config --global user.name "username"
+git config --global user.email "myemail@example.com"
+git init
+git add <archivo>
+git add .
+git commit -m "comentario"
+git log --oneline
+git remote add origin <URL>
+git branch -M main
+git push -u origin main
+git pull
