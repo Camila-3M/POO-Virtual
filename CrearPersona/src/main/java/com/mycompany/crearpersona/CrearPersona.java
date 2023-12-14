@@ -1,8 +1,8 @@
 
-package com.mycompany.leccion;
+package com.mycompany.crearpersona;
 
 
-public class Leccion {
+public class CrearPersona {
 
     public static void main(String[] args) {
         Persona p1 = new Persona();

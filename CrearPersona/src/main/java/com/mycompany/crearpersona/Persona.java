@@ -1,5 +1,5 @@
 
-package com.mycompany.leccion;
+package com.mycompany.crearpersona;
 
 
 public class Persona {
